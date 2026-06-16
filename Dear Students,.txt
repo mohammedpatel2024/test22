@@ -1,0 +1,52 @@
+Dear Students,
+You all can refer the following basic Git commands:
+1.    git init – Initializes a new Git repository in the current directory.
+2.    git clone <repository_url> – Clones an existing repository from a remote source (e.g., GitHub).
+3.    git status – Displays the current state of the working directory and the staging area.
+4.    git add <file> – Stages a specific file for commit.
+5.    git add . – Stages all modified and new files for commit.
+6.    git commit -m "message" – Saves the staged changes with a descriptive message.
+7.    git commit -am "message" – Commits tracked files with changes, skipping git add.
+8.    git log – Shows commit history.
+9.    git log --oneline – Displays commit history in a concise format.
+10.    git diff – Shows changes between the working directory and the last commit.
+11.    git diff --staged – Shows changes that have been staged for commit.
+Branching and Merging
+12.    git branch – Lists all branches in the repository.
+13.    git branch <branch_name> – Creates a new branch.
+14.    git checkout <branch_name> – Switches to the specified branch.
+15.    git switch <branch_name> – Alternative to git checkout for switching branches.
+16.    git checkout -b <branch_name> – Creates and switches to a new branch.
+17.    git merge <branch_name> – Merges a branch into the current branch.
+18.    git branch -d <branch_name> – Deletes a local branch.
+19.    git branch -D <branch_name> – Forcibly deletes a branch.
+Remote Repository Commands
+20.    git remote add origin <repository_url> – Adds a remote repository.
+21.    git remote -v – Lists the remote repositories linked to the project.
+22.    git push -u origin <branch_name> – Pushes a local branch to the remote repository.
+23.    git push – Pushes changes to the remote repository.
+24.    git pull – Fetches and integrates changes from the remote repository.
+25.    git fetch – Retrieves updates from a remote repository without merging.
+26.    git remote remove <name> – Removes a remote repository link.
+Stashing and Cleaning
+27.    git stash – Saves uncommitted changes for later use.
+28.    git stash pop – Applies stashed changes back to the working directory.
+29.    git stash list – Shows all stashed changes.
+30.    git stash drop – Deletes a specific stash.
+31.    git clean -f – Removes untracked files from the working directory.
+Undoing Changes
+32.    git reset <file> – Unstages a file but keeps changes.
+33.    git reset --hard – Resets everything (staging + working directory) to the last commit.
+34.    git reset --soft HEAD~1 – Moves the last commit back to the staging area.
+35.    git revert <commit_hash> – Creates a new commit that undoes a previous commit.
+36.    git checkout -- <file> – Discards changes to a specific file.
+Tagging
+37.    git tag – Lists all tags in the repository.
+38.    git tag -a <tag_name> -m "message" – Creates an annotated tag.
+39.    git push origin <tag_name> – Pushes a specific tag to the remote repository.
+40.    git push --tags – Pushes all local tags to the remote repository.
+Configuration & Help
+41.    git config --global user.name "Your Name" – Sets the global username for Git.
+42.    git config --global user.email "you@example.com" – Sets the global email for Git.
+43.    git config --list – Shows current Git configuration.
+44.    git help <command> – Shows help information for a specific Git command.
